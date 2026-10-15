@@ -1,0 +1,7 @@
+{
+  "id": "Q053",
+  "source_definition": "The source gives a simple graph. Its outputs are proper vertex colorings with at most three colors, or NO-SOLUTION.",
+  "target_definition": "The target gives a graph and k. Find at most k vertex classes and one closed interval per vertex so that adjacency holds exactly for intersecting intervals in different classes, or report NO-SOLUTION. Endpoint weak-order ranks give a finite encoding.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
